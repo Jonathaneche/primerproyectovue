@@ -69,17 +69,22 @@ export default {
   margin-bottom: 1.25rem;
 }
 
+form {
+  width: 70vw;
+  margin: 0 auto;
+}
+
 label {
-  display: block;
   font-weight: bold;
   margin-bottom: 0.4rem;
+  margin-right: 1rem;
 }
 
 input {
   padding: 0.7rem;
   border-radius: 5px;
   border: none;
-  width: 100%;
+  width: 50vw;
   box-sizing: border-box;
 }
 button {
