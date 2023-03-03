@@ -1,11 +1,14 @@
 <template>
-  <div class="contenedor-imagenes">
-    <img
-      v-for="image in images"
-      :key="image.id"
-      :src="image.url"
-      :alt="image.name"
-    />
+  <div>
+    <h3 class="h3">Imagenes de prueba para hacer test con jest</h3>
+    <div class="contenedor-imagenes">
+      <img
+        v-for="image in images"
+        :key="image.id"
+        :src="image.url"
+        :alt="image.name"
+      />
+    </div>
   </div>
 </template>
 
@@ -47,5 +50,8 @@ export default {
 
 .contenedor-imagenes img {
   width: 70%;
+}
+.h3 {
+  text-align: center;
 }
 </style>
